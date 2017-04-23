@@ -35,6 +35,7 @@
 }
 
 .links a {
+  font-family: 'carbontyperegular', sans-serif;
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf
@@ -46,4 +47,13 @@ header {
 
 hr {
   clear: both;
+}
+
+h1 {
+  font-family: 'carbontyperegular', sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Overpass', sans-serif;
 }
