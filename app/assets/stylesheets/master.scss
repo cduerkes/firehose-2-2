@@ -35,7 +35,7 @@
 }
 
 .links a {
-  font-family: 'carbontyperegular', sans-serif;
+  font-family: 'action_manregular', sans-serif;
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf
@@ -50,18 +50,18 @@ hr {
 }
 
 h1 {
-  font-family: 'carbontyperegular', sans-serif;
+  font-family: 'action_manregular', sans-serif;
   font-size: 48px;
 }
 
 h2 {
-  font-family: 'Overpass', sans-serif;
+  font-family: 'action_manregular', sans-serif;
   font-size: 16px;
 }
 
 .next-quote {
-  color: #f84342;
-  font-family: 'carbontyperegular', sans-serif;
+  color: rgba(204,0,0,1);
+  font-family: 'action_manregular', sans-serif;
   font-size: 20px;
 }
 
@@ -90,10 +90,31 @@ h2 {
 }
 
 h2 span {
-  color: #585959;
-  font-family: 'carbontyperegular', sans-serif;
+  color: rgba(204,0,0,1);
+  font-family: 'action_manregular', sans-serif;
 }
 
 ::selection {
-  background-color: #f84342;
+  background-color: rgba(204,0,0,1);
 }
+
+.bio {
+  font-family: 'action_manregular', sans-serif;
+  font-size: 48px;
+  color: black;
+}
+
+.bio a {
+  color: black;
+}
+
+.bio a:hover {
+  color: rgba(204,0,0,1);
+}
+
+.splurty {
+  font-family: 'action_manregular', sans-serif;
+  font-size: 48px;
+  color: rgba(204,0,0,1);
+}
+
